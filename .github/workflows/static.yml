@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Hibaullahi Shakira
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 permissions:
   contents: read
   pages: write
-  id-token: write
+  id-token: write # Consider removing if not needed for OIDC
 
 concurrency:
   group: "pages"
@@ -28,10 +28,13 @@ jobs:
         run: npm install && npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v4 # Updated to v4
         with:
+          name: 'static-files' # Added a name to the artifact (recommended)
           path: "./dist"
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        with:
+          artifact: static-files # Specify the artifact to deploy (important!)
