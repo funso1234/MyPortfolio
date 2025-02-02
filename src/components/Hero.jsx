@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import Shakirah from '../assets/Shakirah.JPG'
+// import Shakirah from '../assets/Shakirah.JPG'
 const Hero = () => (
     <section className="pt-32 pb-20 relative overflow-hidden">
         <div className="container mx-auto px-6">
@@ -42,7 +42,7 @@ const Hero = () => (
 
                     {/* Your Image */}
                     <img
-                        src={Shakirah}
+                        src={new URL('../assets/Shakirah.JPG', import.meta.url).href}
                         alt="Shakira Hibatullahi"
                         className="relative rounded-3xl w-full h-auto border-2 border-cyan-500/20"
                     />
