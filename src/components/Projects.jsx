@@ -23,7 +23,7 @@ const Projects = () => {
             details: "Designed responsive UI, implemented secure booking flow, and integrated real-time bus tracking via third-party APIs"
         },
         {
-            title: "Antlias",
+            title: "Antlias-Merchant",
             problem: "Manual and inefficient tracking of petrol inventory and distribution",
             solution: "Developed a web platform for real-time monitoring of fuel levels, deliveries, and consumption across stations",
             impact: "Increased operational transparency, reduced fuel losses, and improved delivery scheduling",
