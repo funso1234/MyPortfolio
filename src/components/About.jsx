@@ -7,11 +7,15 @@ const About = () => (
 
             <div className="max-w-3xl mx-auto text-gray-300 space-y-6">
                 <p>
-                    I Samuel Oyewusi, a passionate problem-solver combining expertise in Software Engineering. With a degree in Industrial Chemistry and intensive training at Semicolon Africa, I bridge technical implementation with business impact.
+                    I Samuel Oyewusi, a passionate problem-solver combining expertise in Software Engineering.
+                    With a degree in Industrial Chemistry and intensive training at Semicolon Africa,
+                    I bridge technical implementation with business impact.
                 </p>
 
                 <p>
-                    My work focuses on developing practical solutions to real-world challenges, from financial systems optimization to computer vision applications. I thrive in cross-functional environments where technical excellence meets strategic business understanding.
+                    My work focuses on developing practical solutions to real-world challenges,
+                    from financial systems optimization to computer vision applications.
+                    I thrive in cross-functional environments where technical excellence meets strategic business understanding.
                 </p>
 
 

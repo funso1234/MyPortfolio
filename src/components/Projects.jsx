@@ -23,29 +23,14 @@ const Projects = () => {
             details: "Designed responsive UI, implemented secure booking flow, and integrated real-time bus tracking via third-party APIs"
         },
         {
-            title: "Silent Speech Interface",
-            problem: "Communication barriers for the deaf community",
-            solution: "Real-time speech-to-text conversion system",
-            impact: "Enabled seamless communication for hearing-impaired users",
-            tools: ["Java", "WebSockets", "NLP", "React"],
-            details: "Collaborated on backend development and real-time communication features"
-        },
-        {
-            title: "Nigerian Tourism Platform",
-            problem: "Underrepresentation of Nigeria's cultural heritage",
-            solution: "Interactive tourism portal with booking capabilities",
-            impact: "Increased tourism engagement by 30% in beta testing",
-            tools: ["Django", "PostgreSQL", "React", "Mapbox"],
-            details: "Full-stack development including payment integration and user reviews system"
-        },
-        {
-            title: "Easy Wallet App",
-            problem: "Inconvenience of physical cash transactions",
-            solution: "Digital wallet for expense tracking and money transfers",
-            impact: "Simplified financial transactions for 500+ beta users",
-            tools: ["Java Spring Boot", "PostgreSQL", "React"],
-            details: "Implemented secure transaction system and savings goal features"
+            title: "Antlias",
+            problem: "Manual and inefficient tracking of petrol inventory and distribution",
+            solution: "Developed a web platform for real-time monitoring of fuel levels, deliveries, and consumption across stations",
+            impact: "Increased operational transparency, reduced fuel losses, and improved delivery scheduling",
+            tools: ["Nest.js", "Tailwind CSS"],
+            details: "Built role-based dashboards, integrated tank sensors data, and implemented reporting features for fuel inventory and logistics"
         }
+
     ];
 
     return (

@@ -12,8 +12,8 @@ const Skills = () => {
             "Django", "REST APIs", "Git", "Docker", "TDD", "SDLC"
         ],
         "Frontend": [
-            "HTML", "CSS", "Tailwind", "JavaScript", "React Basics",
-            "Responsive Design", "Bootstrap"
+            "HTML", "CSS", "Tailwind", "Nest.js", "JavaScript", "React Basics",
+            "Responsive Design"
         ]
     };
 
