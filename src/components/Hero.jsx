@@ -11,14 +11,16 @@ const Hero = () => (
                 {/* Text Content */}
                 <div>
                     <h1 className="text-5xl font-bold mb-6 text-cyan-100">
-                        Hibatullahi Shakira
+                        Oyewusi Samuel
                     </h1>
                     <h2 className="text-3xl mb-8 font-light text-cyan-400">
-                        Data Scientist, Software Engineer & Problem Solver
+                        Software Engineer & Problem Solver
                     </h2>
                     <p className="text-lg mb-12 text-gray-300 max-w-2xl">
-                        I use technology to solve real-world problems, from reducing retail losses to streamlining financial operations.
-                        My approach combines <span className="text-cyan-400">data-driven insights</span> with <span className="text-cyan-400">practical software solutions</span> to create measurable impact.
+                        I build software that solves real-world problems—whether its reducing retail losses,
+                        streamlining financial operations, or automating complex workflows.
+                        My focus is on delivering thoughtful, well-crafted solutions that improve efficiency,
+                        enhance user experience, and drive meaningful results for businesses.
                     </p>
                     <div className="flex space-x-6">
                         <a
@@ -42,7 +44,7 @@ const Hero = () => (
 
                     {/* Your Image */}
                     <img
-                        src={new URL('../assets/Shakirah.JPG', import.meta.url).href}
+                        src={new URL('../assets/Sammy.JPG', import.meta.url).href}
                         alt="Shakira Hibatullahi"
                         className="relative rounded-3xl w-full h-auto border-2 border-cyan-500/20"
                     />

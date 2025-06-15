@@ -7,20 +7,20 @@ const Projects = () => {
 
     const projects = [
         {
-            title: "Retail Theft Detection System",
-            problem: "Shoplifting causes $100B+ in annual global losses",
-            solution: "Real-time computer vision system using OpenCV and YOLO",
-            impact: "Reduced potential losses by 40% in pilot tests",
-            tools: ["Python", "TensorFlow", "OpenCV", "Django", "YOLO"],
-            details: "Developed core ML pipeline and integration of computer vision system with web interface"
+            title: "SoulEase",
+            problem: "Many young individuals face mental health challenges without access to proper support.",
+            solution: "Built a digital platform that connects youth with certified therapists for accessible and confidential mental health care",
+            impact: " Helped reduce suicide risk by improving access to timely professional support",
+            tools: ["Java", "React", "PostgresSQL", "Spring Boot"],
+            details: "Designed and implemented core backend services and frontend integration; laid groundwork for future expansion to include AI-driven recommendations and user analytics"
         },
         {
-            title: "Accounting Management Software",
-            problem: "Manual financial tracking slows business growth",
-            solution: "Comprehensive financial management system with cash flow forecasting",
-            impact: "Reduced financial reporting time by 50% for SMEs",
-            tools: ["Java Spring Boot", "TensorFlow", "SARIMA", "Matplotlib"],
-            details: "Implemented forecasting models and inventory management features"
+            title: "Wasobia Interstate Transportation",
+            problem: "Lack of reliable and efficient interstate transportation booking systems",
+            solution: "Built a user-friendly platform to compare, book, and track interstate travel options",
+            impact: "Improved access to affordable transport and increased ridership transparency",
+            tools: ["Java", "React", "PostgresSQL", "Spring Boot"],
+            details: "Designed responsive UI, implemented secure booking flow, and integrated real-time bus tracking via third-party APIs"
         },
         {
             title: "Silent Speech Interface",

@@ -21,12 +21,12 @@ const ContactInfo = () => (
                         <div>
                             <h3 className="text-xl font-semibold text-cyan-100">Message Me on WhatsApp</h3>
                             <a
-                                href="https://wa.me/2348137026343" // Replace with your WhatsApp link
+                                href="https://wa.me/2348147755516" // Replace with your WhatsApp link
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-cyan-400 transition-colors"
                             >
-                                +234 813 702 6343
+                                +234 814 775 5516
                             </a>
                         </div>
                     </div>
@@ -37,12 +37,12 @@ const ContactInfo = () => (
                         <div>
                             <h3 className="text-xl font-semibold text-cyan-100">Email Me</h3>
                             <a
-                                href="mailto:hibatullahishakira@gmail.com" // Replace with your Gmail
+                                href="mailto:samuel08063251499@gmail.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-cyan-400 transition-colors"
                             >
-                                hibatullahishakira@gmail.com
+                                samuel08063251499@gmail.com
                             </a>
                         </div>
                     </div>

@@ -9,10 +9,10 @@ const Contacts = () => (
                 <div className="space-y-6 text-center">
                     <div>
                         <p className="text-gray-300 mb-4">
-                            Looking for data science internship opportunities
+                            Looking for role of junior software engineer
                         </p>
                         <a
-                            href="https://docs.google.com/document/d/1FEwGEAS8t-yCU-OOlqdkaRJf6Tc6eMalpsB77zpE2sc/edit?usp=sharing" // Replace with your actual CV URL
+                            href="https://docs.google.com/document/d/1F7bYTpabfw_4M7wE64S77XzlWR4kv5OfprfSZ9S2H6I/edit?tab=t.0" // Replace with your actual CV URL
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-cyan-500 text-slate-900 px-6 py-3 rounded-lg font-medium hover:bg-cyan-400 transition-colors"
@@ -24,17 +24,17 @@ const Contacts = () => (
                     <div className="pt-8 border-t border-slate-600">
                         <p className="text-gray-300">
                             Connect via{' '}
-                            <a
-                                href="https://www.linkedin.com/in/shakira-hibatullahi-333126293/"
-                                className="text-cyan-400 hover:underline"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                LinkedIn
-                            </a>{' '}
+                            {/*<a*/}
+                            {/*    href="https://www.linkedin.com/in/shakira-hibatullahi-333126293/"*/}
+                            {/*    className="text-cyan-400 hover:underline"*/}
+                            {/*    target="_blank"*/}
+                            {/*    rel="noopener noreferrer"*/}
+                            {/*>*/}
+                            {/*    LinkedIn*/}
+                            {/*</a>{' '}*/}
                             or explore code on{' '}
                             <a
-                                href="https://github.com/HibatullahiShakira"
+                                href="https://github.com/funso1234"
                                 className="text-cyan-400 hover:underline"
                                 target="_blank"
                                 rel="noopener noreferrer"

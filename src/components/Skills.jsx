@@ -2,17 +2,17 @@ import { motion } from 'framer-motion';
 
 const Skills = () => {
     const skills = {
-        "Data Science": [
-            "Python", "Pandas", "Scikit-learn", "TensorFlow",
-            "SQL", "PowerBi", "Statistical Analysis", "Hypothesis Testing",
-            "Numpy", "Matplotlib", "Computer Vision", "OpenCv", "Time Series"
-        ],
+        // "Data Science": [
+        //     "Python", "Pandas", "Scikit-learn", "TensorFlow",
+        //     "SQL", "PowerBi", "Statistical Analysis", "Hypothesis Testing",
+        //     "Numpy", "Matplotlib", "Computer Vision", "OpenCv", "Time Series"
+        // ],
         "Software Engineering": [
             "Java", "Spring Boot", "OOP", "UML Diagrams",
             "Django", "REST APIs", "Git", "Docker", "TDD", "SDLC"
         ],
         "Frontend": [
-            "HTML", "CSS", "JavaScript", "React Basics",
+            "HTML", "CSS", "Tailwind", "JavaScript", "React Basics",
             "Responsive Design", "Bootstrap"
         ]
     };
@@ -24,7 +24,7 @@ const Skills = () => {
                     Technical Skills
                 </h2>
 
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-2 gap-8">
                     {Object.entries(skills).map(([category, items]) => (
                         <motion.div
                             key={category}
