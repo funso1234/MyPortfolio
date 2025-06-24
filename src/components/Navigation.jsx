@@ -21,9 +21,9 @@ const Navigation = () => (
                         </a>
                     ))}
                     <div className="flex gap-4 ml-4">
-                        {/*<a href="https://www.linkedin.com/in/shakira-hibatullahi-333126293/" target="_blank" rel="noopener noreferrer">*/}
-                        {/*    <Linkedin className="w-6 h-6 hover:text-cyan-400" />*/}
-                        {/*</a>*/}
+                        <a href="www.linkedin.com/in/oyewusi-samuel-8a3472302" target="_blank" rel="noopener noreferrer">
+                            <Linkedin className="w-6 h-6 hover:text-cyan-400" />
+                        </a>
                         <a href="https://github.com/funso1234" target="_blank" rel="noopener noreferrer">
                             <Github className="w-6 h-6 hover:text-cyan-400" />
                         </a>

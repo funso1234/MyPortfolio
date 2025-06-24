@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, Mail } from 'lucide-react';
+import { Phone, Mail, Linkedin } from 'lucide-react';
 
 const ContactInfo = () => (
     <section id="contact-info" className="py-20 bg-slate-800/50">
@@ -17,7 +17,7 @@ const ContactInfo = () => (
                 <div className="space-y-6">
                     {/* WhatsApp Contact */}
                     <div className="flex items-center space-x-4">
-                        <Phone className="text-cyan-400 w-8 h-8" />
+                        <Phone className="text-cyan-400 w-8 h-8"/>
                         <div>
                             <h3 className="text-xl font-semibold text-cyan-100">Message Me on WhatsApp</h3>
                             <a
@@ -33,7 +33,7 @@ const ContactInfo = () => (
 
                     {/* Gmail Contact */}
                     <div className="flex items-center space-x-4">
-                        <Mail className="text-cyan-400 w-8 h-8" />
+                        <Mail className="text-cyan-400 w-8 h-8"/>
                         <div>
                             <h3 className="text-xl font-semibold text-cyan-100">Email Me</h3>
                             <a
@@ -43,6 +43,21 @@ const ContactInfo = () => (
                                 className="text-gray-300 hover:text-cyan-400 transition-colors"
                             >
                                 samuel08063251499@gmail.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="flex items-center space-x-4">
+                        <Linkedin className="text-cyan-400 w-8 h-8"/>
+                        <div>
+                            <h3 className="text-xl font-semibold text-cyan-100">Link Me</h3>
+                            <a
+                                href="www.linkedin.com/in/oyewusi-samuel-8a3472302"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-300 hover:text-cyan-400 transition-colors"
+                            >
+                                Oyewusi Samuel
                             </a>
                         </div>
                     </div>

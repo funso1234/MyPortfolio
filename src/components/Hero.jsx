@@ -45,7 +45,7 @@ const Hero = () => (
                     {/* Your Image */}
                     <img
                         src={new URL('../assets/Sammy.JPG', import.meta.url).href}
-                        alt="Shakira Hibatullahi"
+                        alt="Samuel Oyewusi"
                         className="relative rounded-3xl w-full h-auto border-2 border-cyan-500/20"
                     />
                 </motion.div>
